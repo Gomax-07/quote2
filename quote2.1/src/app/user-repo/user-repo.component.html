@@ -1,0 +1,20 @@
+<div class="container justify-content-center align-items-center">
+    <h2 class="title">Find A Repo:</h2>
+    <app-search-bar class="bar" (searchEmiter)="getRepo($event)"></app-search-bar>
+</div>
+
+
+
+<div class="row row-cols-1 row-cols-md-3">
+    <div class="col" *ngFor="let r of repo">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">{{ r.name }}</h5>
+                <p class="card-text">{{ r.description }}</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">{{ r.forks }} / {{ r.language }} / {{ r.watchers }}</small>
+            </div>
+        </div>
+    </div>
+</div>

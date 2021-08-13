@@ -1,0 +1,26 @@
+.navbar {
+    height: 70px;
+    background-color: #294730;
+    /* box-shadow: #2F3020; */
+    box-shadow: 0 4px 4px 0 #1b2e1d;
+}
+
+.navbar-brand.h1 {
+    color: #CDCBD6;
+    font-size: 3em;
+}
+
+.navbar-brand.h1:hover {
+    color: #e8eceb;
+    text-decoration: underline;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-item a {
+    color: #e8eceb;
+    margin: 12px;
+    font-size: 18px;
+}
