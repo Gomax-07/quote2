@@ -1,0 +1,37 @@
+    #mighty {
+        background: url(https://cdn.dribbble.com/users/995051/screenshots/3571743/chelsea.png?compress=1&resize=800x600) no-repeat;
+        background-size: cover;
+        height: 800px;
+    }
+    
+    #mighty h1 {
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 2px;
+        color: antiquewhite;
+    }
+    
+    #mighty li {
+        color: antiquewhite;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    nav a {
+        color: antiquewhite;
+        float: left;
+    }
+    
+    li a {
+        display: inline-block;
+        color: antiquewhite;
+        float: left;
+    }
+    
+    li :hover {
+        color: rgb(177, 177, 27);
+    }
+    
+    #blue {
+        color: rgb(3, 11, 17);
+        background-image: linear-gradient(to right, white, blue);
+    }

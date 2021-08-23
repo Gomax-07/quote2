@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/branching-test-project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/contact-tracing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/covid-91" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/delani-studio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/moringa-school-projects/cookie-repo/cookie-recipe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/moringa-school-projects/hello-world" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/moringa-school-projects1/hello-globe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/password_locker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pizza-de-elegance" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/portfolio-page" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/week2" vcs="Git" />
+  </component>
+</project>

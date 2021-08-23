@@ -1,0 +1,436 @@
+   /* Intro design for first image,
+   media responsiveness required for smaller devices */
+   
+   #header {
+       background-image: url("assets/backgrounds/h_img.jpg");
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       color: white;
+       font-family: 'Raleway', sans-serif;
+       text-align: center;
+   }
+   
+   .logo {
+       margin-top: 150px;
+       margin-bottom: 50px;
+   }
+   
+   .tagline {
+       margin-bottom: 100px;
+   }
+   
+   .mousebtn {
+       background-image: url("assets/mouse_click.png");
+       width: 23px;
+       height: 37px;
+       background-color: transparent;
+       border: none;
+       margin-bottom: 50px;
+   }
+   
+   #about {
+       text-align: center;
+       padding-top: 40px;
+       padding-bottom: 40px;
+   }
+   
+   .about-us {
+       font-size: 15px;
+       font-weight: bolder;
+       font-family: 'Raleway', sans-serif;
+       line-height: 2;
+   }
+   
+   #services {
+       background-image: url("assets/backgrounds/s_image.jpg");
+       text-align: center;
+       padding-top: 80px;
+       padding-bottom: 80px;
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       color: white;
+       font-family: 'Raleway', sans-serif;
+       line-height: 2;
+   }
+   
+   #btns-container {
+       text-align: center;
+       padding-bottom: 30px;
+   }
+   
+   #btns-container h2 {
+       margin-top: 30px;
+       margin-bottom: 30px;
+   }
+   
+   #btns-container h6 {
+       padding-bottom: 30px;
+   }
+   
+   .designbtn {
+       background-image: url("assets/services_icons/design_icon.png");
+       height: 83px;
+       width: 80px;
+       border: none;
+       background-color: transparent;
+   }
+   
+   .designbtn2 {
+       background-image: url("assets/services_icons/design_icon.png");
+       height: 83px;
+       width: 80px;
+       border: none;
+       background-color: transparent;
+   }
+   
+   #devbtn {
+       background-image: url("assets/services_icons/dev_icon.png");
+       height: 76px;
+       width: 79px;
+       border: none;
+       background-color: transparent;
+   }
+   
+   #productbtn {
+       background-image: url("assets/services_icons/product_icon.png");
+       height: 91px;
+       width: 79px;
+       border: none;
+       background-color: transparent;
+   }
+   
+   #portfolio-container {
+       text-align: center;
+   }
+   
+   #portfolio-container2 {
+       margin-bottom: 30px;
+   }
+   
+   .imagesp {
+       max-height: 99%;
+       max-width: 99%;
+       margin-bottom: 2%;
+   }
+   
+   #designparagraph {
+       display: none;
+   }
+   
+   #devparagraph {
+       display: none;
+   }
+   
+   #productparagraph {
+       display: none;
+   }
+   
+   .text {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+   }
+   
+   .box1 {
+       position: relative;
+       width: 99%;
+   }
+   
+   .image {
+       display: block;
+       width: 100%;
+       height: auto;
+   }
+   
+   .overlay {
+       position: absolute;
+       top: 25%;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       height: 50%;
+       width: 100%;
+       opacity: 0;
+       transition: .5s ease;
+       background-color: white;
+   }
+   
+   .box1:hover .overlay {
+       opacity: 85%;
+   }
+   
+   .text {
+       color: black;
+       font-size: 20px;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       -webkit-transform: translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+       text-align: center;
+   }
+   
+   #contact {
+       background-image: url("assets/backgrounds/c_image.jpg");
+       text-align: center;
+       color: white;
+       font-family: 'Raleway', sans-serif;
+       height: 683px;
+       width: 1920px;
+       background-position: center;
+       background-repeat: no-repeat;
+   }
+   
+   #contact h2 {
+       padding-top: 40px;
+   }
+   
+   #contactform {
+       margin: auto;
+       padding-left: 25%;
+       padding-top: 30px;
+   }
+   
+   .form-control {
+       border-radius: 0px;
+       background-color: transparent;
+       color: white;
+       border-width: 2px;
+   }
+   
+   #textarea {
+       margin-left: 50%;
+       margin-top: 30px;
+   }
+   
+   #submitbtn {
+       width: 20%;
+       margin-top: 30px;
+       margin-left: 40%;
+       color: white;
+       border-width: 2px;
+       border-color: white;
+       margin-bottom: 100px;
+   }
+   
+   #MERGE0 {
+       width: 80%;
+       margin-left: 10%;
+       padding-bottom: 10px;
+   }
+   
+   #MERGE1 {
+       width: 80%;
+       margin-left: 10%;
+       margin-bottom: 20px;
+   }
+   
+   #MERGE2 {
+       margin-left: 10%;
+       margin-top: 20px;
+       width: 80%;
+   }
+   
+   .contact {
+       background-image: url('assets/backgrounds/c_image.jpg');
+       background-position: center center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       color: white;
+   }
+   
+   .title {
+       padding: 6px;
+   }
+   
+   .contact h2 {
+       text-align: center;
+       margin-top: 30px;
+       padding-top: 40px;
+       padding-bottom: 20px;
+       font-family: 'Raleway', sans-serif;
+   }
+   
+   input[type=text],
+   input[type=email],
+   #MERGE2 {
+       background: transparent;
+       color: white;
+       font-family: 'Raleway', sans-serif;
+   }
+   
+   .form-control::-webkit-input-placeholder {
+       color: white;
+   }
+   
+   .foot {
+       text-align: center;
+       padding-top: 30px;
+       font-family: 'Raleway', sans-serif;
+   }
+   
+   .foot img {
+       margin: 5px;
+   }
+   
+   #mc_embed_signup {
+       background: transparent;
+       clear: left;
+       font: 14px Helvetica, Arial, sans-serif;
+       color: black;
+   }
+   
+   @media (min-width: 576px) {
+       #MERGE0 {
+           width: 30%;
+           margin-left: 1%;
+           padding-bottom: 10px;
+           float: left;
+       }
+       #MERGE1 {
+           width: 30%;
+           margin-left: 20%;
+           margin-bottom: 20px;
+           padding-bottom: 10px;
+           float: left;
+           margin-bottom: 20px;
+       }
+       #MERGE2 {
+           margin-left: -30%;
+           margin-top: 20px;
+           width: 61%;
+           float: left;
+       }
+   }
+   /*bounce effect for the mouse icon*/
+   
+   @-webkit-keyframes mousebtn {
+       15% {
+           -webkit-transform: translateY(5px);
+           transform: translateY(5px);
+       }
+       30% {
+           -webkit-transform: translateY(-5px);
+           transform: translateY(-5px);
+       }
+       50% {
+           -webkit-transform: translateY(3px);
+           transform: translateY(3px);
+       }
+       65% {
+           -webkit-transform: translateY(-3px);
+           transform: translateY(-3px);
+       }
+       80% {
+           -webkit-transform: translateY(2px);
+           transform: translateY(2px);
+       }
+       100% {
+           -webkit-transform: translateY(0);
+           transform: translateY(0);
+       }
+   }
+   
+   @keyframes mousebtn {
+       15% {
+           -webkit-transform: translateY(5px);
+           transform: translateY(5px);
+       }
+       30% {
+           -webkit-transform: translateY(-5px);
+           transform: translateY(-5px);
+       }
+       50% {
+           -webkit-transform: translateY(3px);
+           transform: translateY(3px);
+       }
+       65% {
+           -webkit-transform: translateY(-3px);
+           transform: translateY(-3px);
+       }
+       80% {
+           -webkit-transform: translateY(2px);
+           transform: translateY(2px);
+       }
+       100% {
+           -webkit-transform: translateY(0);
+           transform: translateY(0);
+       }
+   }
+   
+   .mousebtn:hover {
+       -webkit-animation: mousebtn 1s ease;
+       animation: mousebtn 1s ease;
+       -webkit-animation-iteration-count: 1;
+       animation-iteration-count: 1;
+   }
+   /* Popup container - can be anything you want */
+   
+   .popup {
+       position: relative;
+       display: inline-block;
+       cursor: pointer;
+       -webkit-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+   }
+   /* The actual popup */
+   
+   .popup .popuptext {
+       visibility: hidden;
+       height: 200px;
+       width: 300px;
+       background-color: white;
+       color: black;
+       font-family: 'Raleway', sans-serif;
+       text-align: center;
+       border-radius: 6px;
+       padding: 8px 0;
+       position: absolute;
+       z-index: 1;
+       bottom: 125%;
+       left: 50%;
+       margin-left: -80px;
+   }
+   /* Popup arrow */
+   
+   .popup .popuptext::after {
+       content: "";
+       position: absolute;
+       top: 100%;
+       left: 50%;
+       margin-left: -5px;
+       border-width: 5px;
+       border-style: solid;
+       border-color: #555 transparent transparent transparent;
+   }
+   /* Toggle this class - hide and show the popup */
+   
+   .popup .show {
+       visibility: visible;
+       -webkit-animation: fadeIn 1s;
+       animation: fadeIn 1s;
+   }
+   /* Add animation (fade in the popup) */
+   
+   @-webkit-keyframes fadeIn {
+       from {
+           opacity: 0;
+       }
+       to {
+           opacity: 1;
+       }
+   }
+   
+   @keyframes fadeIn {
+       from {
+           opacity: 0;
+       }
+       to {
+           opacity: 1;
+       }
+   }

@@ -1,0 +1,16 @@
+{% extends 'layout.html' %} {% block head %}
+<title>reviews-page</title>
+{% endblock %} {% block body %}
+<h1>Reviews</h1>
+
+{% for review in reviews %}
+<h2>{{ review.title }}</h2>
+
+{% if review.author %}
+<h3>{{ review.author }}</h3>
+{%else%}
+<h3>(Author unknown)</h3>
+{% endif %}
+
+<p>{{ review.content }}</p>
+{%endfor%} {% endblock %}
